@@ -1,4 +1,4 @@
-react-jsonschema-form  copy from react-jsonschema-form authed by n1k0
+react-jsonschema-form
 =====================
 
 [![Build Status](https://travis-ci.org/mozilla-services/react-jsonschema-form.svg?branch=master)](https://travis-ci.org/mozilla-services/react-jsonschema-form)
