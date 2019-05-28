@@ -55,13 +55,13 @@ function DefaultArrayItem(props) {
           background: "#f5f5f5",
           cursor: "pointer"
         }}
-        onClick={({target}) => {
+        onClick={({ target }) => {
           target.show = !target.show;
           target.nextSibling.style.display = target.show?'none':'block';
           target.nextSibling.nextSibling.style.display = target.show?'none':'block';}
         }
       >
-        `index:${props.index}`
+        index:{props.index}
       </div>
       <div className={props.hasToolbar ? "col-xs-9" : "col-xs-12"}>
         {props.children}
