@@ -58,7 +58,7 @@ function DefaultArrayItem(props) {
         onClick={({ target }) => {
           target.show = !target.show;
           target.nextSibling.style.display = target.show?'none':'block';
-          target.nextSibling.nextSibling.style.display = target.show?'none':'block';}
+          if (target.nextSibling.nextSibling){target.nextSibling.nextSibling.style.display = target.show ? "none" : "block";}}
         }
       >
         index:{props.index}
